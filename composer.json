@@ -1,0 +1,25 @@
+{
+    "name": "iextra/di",
+    "description": "dependency injection",
+    "require": {
+        "psr/container": "^1.0"
+    },
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iextra",
+            "email": "iextra.denis@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Extra\\": "src/Extra/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4",
+        "iextra/dumper": "^1.0"
+    }
+}
