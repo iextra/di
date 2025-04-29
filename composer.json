@@ -1,0 +1,22 @@
+{
+    "name": "extro/di",
+    "description": "Dependency injection container",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "psr/container": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Extro\\Di\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "extro",
+            "email": "iextro.denis@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
